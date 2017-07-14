@@ -2,11 +2,11 @@
 
 		body{
 			background: black;		
-			position: absolute;		/*ALL OF THIS IS THE DAMN KEY*/
-			height: 100%;			/*ALL OF THIS IS THE DAMN KEY*/
-			width: 100%;			/*ALL OF THIS IS THE DAMN KEY*/
+			position: absolute;	
+			height: 100%;		
+			width: 100%;		
 			margin: 0;
-			top: 0;				/*ALL OF THIS IS THE DAMN KEY*/
+			top: 0;				
 			font-family: 'Fjalla One', sans-serif;
 		}
 
@@ -41,10 +41,8 @@
 		}
 
 		li {
-			/*position: relative;*/
 			list-style: none;
 			border-bottom: 1px solid white;
-			/*padding-top: 31.7%;*/
 			font-size: 26px;
 			text-align: center;
 			height: 24.9%;
@@ -83,21 +81,12 @@
 
 		}
 
-		/*#container {
-			position: relative;
-			height: 70%;
-			width: 100%;
-			border: 1px solid red;
-			background: blue;
-		}*/
-
 		#wrapper {
 			position: relative; 
 			margin: 0;
 			width: 100%;
 			height: 70%;
 			border-bottom: 1px solid white;
-			/*border-right: 1px solid white;*/
 		}
 
 		#list {
