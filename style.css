@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+		body{
+			background: black;		
+			position: absolute;		/*ALL OF THIS IS THE DAMN KEY*/
+			height: 100%;			/*ALL OF THIS IS THE DAMN KEY*/
+			width: 100%;			/*ALL OF THIS IS THE DAMN KEY*/
+			margin: 0;
+			top: 0;				/*ALL OF THIS IS THE DAMN KEY*/
+			font-family: 'Fjalla One', sans-serif;
+		}
+
+		header {	
+			margin-top: 0;		
+			background: red;
+			border-bottom: 3px solid white;
+			width: 100%;
+		}
+
+		h1 {
+			position: relative;
+			margin: 0px;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		input {
+			background: red;
+			border: 1px solid red;
+			height: 50px;
+			width: 200px
+		}
+
+		input:hover {
+			border: 1px solid white;
+			color: white;
+			background: black;
+		}
+
+		li {
+			/*position: relative;*/
+			list-style: none;
+			border-bottom: 1px solid white;
+			/*padding-top: 31.7%;*/
+			font-size: 26px;
+			text-align: center;
+			height: 24.9%;
+			margin-bottom: 0;
+		}
+
+		.a1:hover {
+			color: red;
+			background: url("./assets/joker.jpg");
+			background-position: center;
+			background-size: cover;
+
+		}
+
+		.b:hover {
+			color: red;
+			background: url("./assets/skull.png");
+			background-position: center;
+			background-size: cover;
+
+		}
+
+		.c:hover {
+			color: red;
+			background: url("./assets/fox.jpg");
+			background-position: center;
+			background-size: cover;
+
+		}
+
+		.d:hover {
+			color: red;
+			background: url("./assets/crew.jpg");
+			background-position: center;
+			background-size: cover;
+
+		}
+
+		/*#container {
+			position: relative;
+			height: 70%;
+			width: 100%;
+			border: 1px solid red;
+			background: blue;
+		}*/
+
+		#wrapper {
+			position: relative; 
+			margin: 0;
+			width: 100%;
+			height: 70%;
+			border-bottom: 1px solid white;
+			/*border-right: 1px solid white;*/
+		}
+
+		#list {
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 25%;
+			height: 100%;
+			border-right: 1px solid white;
+		}
+
+		#syn {
+			position: absolute;
+			background: url("./assets/cast.jpg");
+			background-position: center;
+			background-size: cover;
+			right: 0;
+			top: 0;
+			width: 74.9%;
+			height: 100%;
+		}
+
+		#list, #syn {
+			display: inline-block;
+		}
+
+		#vidcontainer {
+			border: 1px solid red;
+			margin: auto;
+			width: 60%;
+			margin-top: 10%;
+		}
+
+		#tab {
+			margin-bottom: 0;
+		}
+
+		table {
+			margin: auto;
+			color: white;
+			height: 40%;
+			width: 50%;
+		}
+
+		td {
+			border-bottom: 1px solid red;
+		}
+
+		#joker {
+			background: url("./assets/pro.png");
+			background-position: top right;
+			background-repeat: no-repeat;
+		}
+
+		#joker:hover {
+			background: url("./assets/joker1.png");
+			color: red;
+		}
+
+		#skull {
+			background: url("./assets/ryuji.png");
+			background-position: top right;
+			background-repeat: no-repeat;
+		}
+
+		#skull:hover {
+			background: url("./assets/skull1.png");
+			background-repeat: no-repeat;
+			background-position: top right;
+			color: red;
+		}
+
+		#panther {
+			background: url("./assets/anne.png");
+			background-position: top right;
+			background-repeat: no-repeat;
+			border-bottom: 0px solid black;
+		}
+
+		#panther:hover {
+			background: url("./assets/pantherb.png");
+			background-position: top right;
+			background-repeat: no-repeat;
+			color: red;
+		}
+		article {
+			color: white;
+			position: relative;
+			margin: auto;
+			margin-top: 9%;
+			width: 85%;
+			font-size: 30px;
+			text-align: justify;
+			line-height: 60px;
+		}
+
+		span {
+			color: red;
+		}
+
+		footer {
+			margin-top: 0;
+			border-top: 1px solid red;
+		}
